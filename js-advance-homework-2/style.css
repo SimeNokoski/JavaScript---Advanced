@@ -1,0 +1,15 @@
+table{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(186, 234, 186);
+    margin-top: 10px;
+}
