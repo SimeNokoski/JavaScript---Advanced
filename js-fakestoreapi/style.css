@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    background-image: url(./img/OIP.jfif);
+}
+#all-products{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+#cartCon{
+    width: 350px;
+    min-height: 400px;
+    display: flex;
+     align-items: center;
+     text-align: center;
+}
+.cartCss{
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 10px;
+ width: 400px;
+ height: 530px;
+ font-size: 14px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: white;
+}
+.product-image{
+    width: 100px;
+    height: 100px;
+}
+#shopImg{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    cursor: pointer;
+    margin-right: 50px;
+}
+#close{
+    float: right;
+    font-size: x-large;
+    font-weight: 700;
+    background-color: rgb(223, 148, 148);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ #close:hover{
+    background-color: red;
+ }
+#shop{
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    background-color: rgba(255, 233, 206,0.9);
+    text-align: center;
+}
+#titleFakeStore{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 42px;
+    text-shadow: 2px 2px;
+    color: red;
+}
+.btnDell{
+margin-left: 20px;
+}
+ 
+.cartCssText{
+    margin: 5px;
+    text-align: center;
+     
+    
+}
+.cartCssDiv{
+  text-align: center;
+}
+.cartCssImg{
+    margin-top: 10px;
+}
+.divCartInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.categoryBtns{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: rgb(88, 88, 176);
+}
+.categoryBtns:focus{
+    background-color: greenyellow;
+}
+#category{
+position: fixed;
+top: 120px;
+
+}
+#categoryTitle{
+    margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#total-Products{
+    position: fixed;
+    top: 45px;
+    right: 70px;
+    color: greenyellow;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+ 
+#buy{
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    transition: 2s;
+    background-color: rgb(165, 162, 162)
+
+}
+#buy:hover{
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(36, 235, 36);
+
+}
+.addBtnCart{
+    width: 100px;
+    height: 30px;
+}
+.addBtnCart:hover{
+    background-color: aquamarine;
+    border: none;
+}
